@@ -1,0 +1,23 @@
+{
+	"name": "himanshupatel79/Simple-Product-Search",
+	"type": "library",
+	"description": "A light, simple but powerful PHP5 Cache Class which uses the filesystem for caching.",
+	"keywords": ["cache", "simple", "filesystem", "json"],
+	"homepage": "https://github.com/himanshupatel79/Simple-Product-Search",
+	"license": "BSD",
+	"authors": [
+		{
+			"name": "Himanshu Patel",
+			"email": "hp4137@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"."
+		]
+	}
+}
