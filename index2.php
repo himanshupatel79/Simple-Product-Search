@@ -13,5 +13,15 @@ define("CACHETYPE", "cache");
 require_once 'ProductController.php';
 
 $pc = new ProductController();
+
+//First Request of TV
 $pc->store(1000012,'TV');
-$pc->detail(20000);
+$pc->store(1000011,'Mobile');
+//Second Request of TV
+$pc->store(1000012,'TV');
+
+//retrieve all products data in to JSON Format
+$pc->detail();
+
+//retrieve specific product data in to JSON Format
+$pc->detail(1000012);
